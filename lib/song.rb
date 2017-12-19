@@ -11,5 +11,5 @@ attr_accessor :name, :artist
   end
 
     Artist.song = self
-    
+
 end
