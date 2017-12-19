@@ -24,7 +24,7 @@ attr_accessor :name, :songs, :song
   end
 
   def song_count
-    @@song_count.size
+    @@song_count.count
   end
   # def song=(song)
   #   @song = song
