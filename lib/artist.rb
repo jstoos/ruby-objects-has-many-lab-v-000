@@ -8,7 +8,7 @@ attr_accessor :name, :songs
   end
 
   def add_song(song)
-    # song = Song.new(song_name)
+    song = Song.new(song_name)
     @songs << song
     song.artist = self
   end
@@ -20,5 +20,8 @@ attr_accessor :name, :songs
   # def songs
   #   @songs
   # end
+
+  # expect(adele.songs).to include(hello)
+  # expect(hello.artist).to eq(adele)
 
 end
