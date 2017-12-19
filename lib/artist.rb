@@ -14,6 +14,10 @@ attr_accessor :name, :songs, :song
     @song = song
   end
 
+
+  def songs
+    @songs
+  end
   # def song=(song)
   #   @song = song
   # end
@@ -22,10 +26,6 @@ attr_accessor :name, :songs, :song
   #   @song
   # end
   #
-  def songs
-    @songs
-  end
-
   # expect(adele.songs).to include(hello)
   # expect(hello.artist).to eq(adele)
 
