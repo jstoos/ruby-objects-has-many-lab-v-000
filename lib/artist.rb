@@ -13,6 +13,10 @@ attr_accessor :name, :song, :songs
     song.artist = self
   end
 
+  def song=(song)
+    @song = song
+  end
+
   def songs
     @songs
   end
