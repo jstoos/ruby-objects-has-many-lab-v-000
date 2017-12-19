@@ -16,11 +16,11 @@ attr_accessor :name, :songs, :song
   # def song=(song)
   #   @song = song
   # end
-  # 
+  #
   # def song
   #   @song
   # end
-  # 
+  #
   # def songs
   #   @songs
   # end
