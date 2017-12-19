@@ -13,5 +13,6 @@ attr_accessor :title, :author
     else
       nil
     end
+  end
 
 end
