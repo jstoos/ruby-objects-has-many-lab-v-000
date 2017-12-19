@@ -17,9 +17,13 @@ attr_accessor :name, :songs
     @song = song
   end
 
-  # def songs
-  #   @songs
-  # end
+  def song
+    @song
+  end
+
+  def songs
+    @songs
+  end
 
   # expect(adele.songs).to include(hello)
   # expect(hello.artist).to eq(adele)
