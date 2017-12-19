@@ -8,8 +8,8 @@ attr_accessor :title, :author
   end
 
   def author_name
-    if post.author != nil
-      post.author.name
+    if self.author != nil
+      self.author.name
     else
       nil
     end
