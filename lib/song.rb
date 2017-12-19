@@ -8,8 +8,9 @@ attr_accessor :name, :artist
 
   def artist=(artist)
     @artist = artist
+    Artist.song = self
   end
 
-    Artist.song = self
+
 
 end
