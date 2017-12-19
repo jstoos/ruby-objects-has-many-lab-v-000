@@ -17,8 +17,8 @@ attr_accessor :name, :songs
     @song = song
   end
 
-  def songs
-    @songs
-  end
+  # def songs
+  #   @songs
+  # end
 
 end
